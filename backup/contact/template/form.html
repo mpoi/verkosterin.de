@@ -1,0 +1,40 @@
+<div id="contact_form_ct">
+<div id="system_message"></div>
+    <form id="contact_form" action="" method="post" enctype="multipart/form-data" name="contact_form"> 
+        <label for="name">Name *</label>
+        <input id="name" type="text" name="name" value="" /> 
+         
+        <label for="street">Stra&szlig;e</label>
+        <input id="street" type="text" name="street" value="" />   
+         
+        <label for="city">Stadt</label>
+        <input id="city" type="text" name="city" value="" /> 
+           
+        <label for="email">E-Mail *</label>
+        <input id="email" type="text" name="email" value="" />  
+                      
+        <label for="phone">Telefon</label>
+        <input id="phone" type="text" name="phone" value="" />  
+        
+        <label for="message">Nachricht *</label>
+        <textarea id="message" name="message" rows="15" cols="30"></textarea> 
+  
+        <label for="copy">&nbsp;</label>
+        <div class="form_element_ct">
+            <input type="checkbox" id="copy" name="copy" value="1" /> Ich m&ouml;chte eine Kopie dieser Nachricht
+        </div>
+        
+        <div id="captcha_ct">
+            <label for="captcha">Captcha *</label>
+            <div class="form_element_ct">
+                <img src="/contact/captcha.php" alt="Captcha Image" />
+            </div>  
+            <label for="captcha">Best&auml;tigung</label>
+            <input id="captcha" type="text" name="captcha" value="" autocomplete="off" /> 
+            <div class="clear"></div>    
+        </div>                               
+        <label for="submit_button">&nbsp;</label> 
+        <input id="submit_button" type="submit" name="submit" value="Absenden" /> 
+        <div class="clear" style="margin-bottom:10px;"></div>                                                                        
+    </form>
+</div>

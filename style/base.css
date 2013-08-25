@@ -1,0 +1,59 @@
+html {margin:0;padding:0;width:100%;height:100%;font-family: 'Open Sans Condensed', sans-serif;}
+body {width:1000px;margin:10px auto;}
+
+#head {position:relative;overflow:visible;height:200px;width:1000px;}
+#head a {text-decoration: none;}
+#head_container {position:relative;left:-60px;top:-40px;background:url('/images/green-70.png') repeat;display:inline-block;padding:5px 60px 5px 20px;transform: perspective( 400px ) rotateY( 45deg );-webkit-transform: perspective( 400px ) rotateY( 45deg );	-moz-transform: perspective( 400px ) rotateY( 45deg );-o-transform: perspective( 400px ) rotateY( 45deg );	-ms-transform: perspective( 400px ) rotateY( 45deg );border:1px solid #4e4e4e;}
+#headline {font-size:64px;line-height:64px;text-transform:uppercase;color:#fff;}
+#sub_headline {color:#fff;font-size:28px;line-height:28px;}
+
+div.date1, div.date2, div.date3 {position:absolute;left:572px;background:url('/images/green-70.png') repeat;display:inline-block;font-size:22px;line-height:22px;color:#fff;padding:2px 4px 4px 20px;border:1px solid #4e4e4e;}
+div.date1 {top:67px;}
+div.date2 {top:102px;}
+div.date3 {top:137px;}
+
+.avg_rate {position:absolute;left:425px;top:220px;background:url('/images/5star_xl.png') no-repeat;width:150px;height:29px;}
+.star-1 {background-position: 0px 0px !important;}
+.star-2 {background-position: 0px -29px !important;}
+.star-3 {background-position: 0px -57px !important;}
+.star-4 {background-position: 0px -86px !important;}
+.star-5 {background-position: 0px -115px !important;}
+
+#menu_container {margin-top:100px;padding:0;}
+#menu_container a {display:inline-block;font-size:22px;line-height:22px;text-decoration: none;margin-top:100px;padding:6px 5px;margin:2px;background:url('/images/green-70.png') repeat;color:#fff;border:1px solid #4e4e4e;}
+#menu_container a.rights {float:right;}
+#menu_container a.rights.last {float:right;margin-right:0;}
+#menu_container a:hover {background:none;background-color:#fff;color:#7fbf19;border:1px solid #7fbf19;}
+
+#menu_container2 {width:1000px;margin-top:10px;}
+#menu_container2 a {display:inline-block;font-size:22px;line-height:22px;text-decoration: none;margin-top:100px;padding:6px 5px;margin:2px;background:url('/images/green-70.png') repeat;color:#fff;border:1px solid #4e4e4e;}
+#menu_container2 a.rights {float:right;margin-right:0;}
+#menu_container2 a:hover {background:none;background-color:#fff;color:#7fbf19;border:1px solid #7fbf19;}
+
+#menu_footer {margin-top:10px;width:1000px;text-align:right;font-size:12px;line-height:12px;}
+#menu_footer a, #menu_footer a:hover {color:#7fbf19;text-decoration: none;}
+#menu_footer a:hover {text-decoration: underline;}
+
+#main {position:relative;width:1000px;}
+#main_container {width:752px;margin:0 2px;margin-top:10px;color:#fff;height:450px;overflow-y: auto;overflow-x: hidden;background:url('/images/green-70.png') repeat;position:relative;border:1px solid #4e4e4e;padding-left:244px;}
+.main_left_start {height:450px;width:244px;background:url('/images/gisa-start.png') bottom no-repeat;position:absolute;bottom:1px;left:2px;}
+#main_container h1 {font-size:38px;line-height:38px;text-shadow: 2px 2px 0px #000;}
+
+.errormsg {position:fixed;left:0;bottom:0;width:100%;background-color:white;color:red;}
+
+#visitor_tab {border-spacing:0;border-collapse:collapse;}
+#visitor_tab td {width:120px;}
+
+div.rating_entry {display:inline-block;border:1px solid #fff;padding:5px;width:220px;min-width:100px;position:relative;float:left;background-color:#7fbf19;margin:2px;margin-bottom: 10px;}
+div.rating_entry_business {display:inline-block;border:1px solid #fff;padding:5px;width:220px;min-width:100px;position:relative;float:left;background-color:#4e4e4e;margin:2px;margin-bottom: 10px;}
+.rating_text {display:inline;font-size:13px;line-height:13px;}
+.rating_name {font-weight:700;}
+.rating_type {font-size: 12px;line-height:12px;color:#fff;margin-left:5px;}
+.rating_stars-1, .rating_stars-2, .rating_stars-3, .rating_stars-4, .rating_stars-5 {position:absolute;top:-11px;right:0px;display:block;background:url('/images/5star_m.png') no-repeat;width:100px;height:20px;}
+.rating_stars-1 {background-position: 0px 0px !important;}
+.rating_stars-2 {background-position: 0px -19px !important;}
+.rating_stars-3 {background-position: 0px -38px !important;}
+.rating_stars-4 {background-position: 0px -57px !important;}
+.rating_stars-5 {background-position: 0px -76px !important;}
+
+div#mc1 {position:relative;left:244px;width:750px;}

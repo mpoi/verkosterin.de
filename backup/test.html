@@ -1,0 +1,60 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html>
+<head>
+	<link rel="stylesheet" href="css/liteaccordion.css">
+  <title>Verkosterin</title>
+  
+</head>
+<body>
+
+	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js"></script>
+    <script src="js/liteaccordion.jquery.js"></script>
+
+	            <div id="one">
+                <ol>
+                    <li>
+                        <h2><span>Slide One</span></h2>
+                        <div></div>
+                    </li>
+                    <li>
+                        <h2><span>Slide Two</span></h2>
+                        <div></div>
+                    </li>
+                    <li>
+                        <h2><span>Slide Three</span></h2>
+                        <div></div>
+                    </li>
+                    <li>
+                        <h2><span>Slide Four</span></h2>
+                        <div></div>
+                    </li>
+                    <li>
+                        <h2><span>Slide Five</span></h2>
+                        <div></div>
+                    </li>
+                </ol>
+                <noscript>
+                    <p>Please enable JavaScript to get the full experience.</p>
+                </noscript>
+            </div>
+        
+
+
+            <script>
+                $('#one').liteAccordion({
+                    onTriggerSlide : function() {
+                        this.find('figcaption').fadeOut();
+                    },
+                    onSlideAnimComplete : function() {    
+                        this.find('figcaption').fadeIn();
+                    },
+                    autoPlay : true,
+                    pauseOnHover : true,
+                    theme : 'stitch',
+                    rounded : true,
+                    enumerateSlides : true                  
+            }).find('figcaption:first').show();
+            </script>
+	
+</body>
+</html>

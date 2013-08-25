@@ -1,0 +1,92 @@
+
+a, img{
+    outline: none;
+    border: 0;
+}
+.clear{
+    clear: both;
+}
+#contact_form_ct{
+    margin: 0 auto 0 auto;
+    font-size: 12px;
+    font-family: sans-serif;
+    position: relative;
+    padding: 0;
+    display: block;
+    width: 500px;
+}
+/* 
+* error messages below any input field
+*/
+.direct_help{
+    padding-left: 112px; /* width of floating label + label:padding-left&right */
+    float: left;
+    width: 490px;        /* padding-left + input:width + input:padding-left&right + input:border-left&right */
+    font-size: 10px;
+    color: red;
+    margin-bottom: 3px;
+}
+/* error message on top */
+.system_message_error{
+    width: 478px;
+    font-weight:bold;
+    border:1px dashed #FC3900;
+    color:#FF0000;
+    margin-top: 10px;
+    margin-bottom: 10px;    
+    padding:5px;
+    text-align:left;
+}
+label{
+    width: 106px;
+}
+label,
+input, 
+textarea,
+.checkbox_ct{    
+    padding: 3px;
+    float: left;
+    margin-bottom: 5px;
+}
+input,
+textarea{
+    width: 370px;
+}
+input[type="text"],
+input[type="submit"],
+textarea{
+    border: 1px solid #ccc;   
+}
+.form_element_ct{
+    float: left;
+    width: 370px; 
+    padding: 3px;
+    line-height: 20px;   
+}
+input[type="checkbox"]{
+    width: auto;
+    margin-left: 0;
+    padding: 0;
+    margin-right: 10px;
+}
+input[type="text"]:active,
+input[type="text"]:focus,
+textarea:focus{
+    background-color: #ebf4ff;
+}
+body .input_error_marker{
+    border: 1px solid red;
+}
+input[type="submit"]{
+    width: 378px;  
+    background-image: url(../images/grey.png);
+    padding-top: 5px;
+    padding-bottom: 5px;
+    cursor: auto;
+    cursor: pointer;
+    
+    -ms-filter:chroma(color=#000000);
+    filter:chroma(color=#000000);
+    color:#010101; 
+    outline: none;   
+}
